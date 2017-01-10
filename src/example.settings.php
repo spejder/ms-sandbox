@@ -1,6 +1,9 @@
 <?php
 // Update the following two variables.
-$settings['uid'] = '1234567';
+$settings['username'] = '1234567'; // member number
+// If you don't know your uid, fill out the username and then use authenticate
+// to retrive the user-id.
+$settings['uid'] = (int)'1234';
 $settings['password'] = 'secret';
 
 $settings['url'] = 'https://mskursus.dds.dk';
